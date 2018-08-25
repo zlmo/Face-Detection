@@ -1,8 +1,11 @@
-![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
+# Data preparation
 
-# Darknet #
-Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
+**offline!**
 
-For more information see the [Darknet project website](http://pjreddie.com/darknet).
+## Download WIDER FACE dataset from official website
 
-For questions or issues please use the [Google Group](https://groups.google.com/forum/#!forum/darknet).
+
+
+## Put the downloaded file in /darknet and run wider_face.py
+
+python wider_face.py

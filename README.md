@@ -1,6 +1,6 @@
 # Data preparation
 
-**offline!**
+![Image text](https://raw.github.com/zlmo/face_detection/master/data/dog.jpg)
 
 ## Download WIDER FACE dataset from official website
 

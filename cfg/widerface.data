@@ -1,0 +1,5 @@
+classes = 1
+train  = /home/darknet/darknet/WIDER_FACE_VOC/train.txt
+valid  = /home/darknet/darknet/WIDER_FACE_VOC/val.txt
+names = data/widerface.names
+backup = backup/

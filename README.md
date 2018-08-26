@@ -56,4 +56,5 @@ I have write the file to transfer, just run it:
 # And this is the qulitative result.
 
   Detections
+<img width="150" height="150" src="https://raw.github.com/zlmo/face_detection/master/data/001.png"/>
 ![Image text](https://raw.github.com/zlmo/face_detection/master/data/001.png)

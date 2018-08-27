@@ -66,10 +66,15 @@ When use the official yolo-like networks for face detection, we need to do some 
 `./darknet detector train cfg/widerface.data cfg/yolov2-tiny-voc.cfg darknet.conv.13`     
 
   This is trained use yolov2-tiny-voc.cfg, and the pre-trained weights darknet.con.13 can be found here in BaiduYun:
-    链接: https://pan.baidu.com/s/1TAq925irdympMnwPNPP4kw 密码: vew1
+    	链接: https://pan.baidu.com/s/1TAq925irdympMnwPNPP4kw 密码: vew1
   And some trained networks can be found here (These networks may have some little changes compare to original networks):
-  
-    
+  face_small_3
+  	链接: https://pan.baidu.com/s/1ZvNh1GWSC0ayCbD8NVndIA 密码: uwyh
+  face_small_6
+  	链接: https://pan.baidu.com/s/1oYm4AlfzUmEcazh0aBXbLQ 密码: 7tp8
+  face_v2
+  	链接: https://pan.baidu.com/s/1plHaBI-urGAqPXjZ98zVKw 密码: 2cgz
+     
 ## 3. Train with my own face detection method
   I write a network based on darknet which is the face_small_context3.cfg. This network is a fast lightweight face detection network with feature fusion and context.
 
@@ -86,19 +91,19 @@ After validation, we will get a resulting .txt file under '/results':
 - Transfer the .txt file to WIDER FACE validation style
 I have write the file to transfer, just run it:
 `python valid_transfer.py`
-This will produce the results needed by Wider Face and then
+This will produce the results needed by Wider Face (the result format could refer to 'widerface_result') and then
 - Put the results under the dir of Wider Face validation tool.
 - Do some changes and run in matlab and we will get the precison-recall curves on 'easy', 'medium' and 'hard' respectively.
 
 ## 5. And this is the qualitative result.
 I write the paint.py to draw bounding box, red is the original annotations and green is the predicted bounding box. 
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/00.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/01.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/02.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/000.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/001.png"/>
-<div align=center><img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/002.png"/>
+<div align=left><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"/>
+<div align=right><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"/>
+<div align=left><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>
+<div align=right><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/00.png"/>
+<div align=left><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/01.png"/>
+<div align=write><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/02.png"/>
+<div align=left><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/000.png"/>
+<div align=right><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/001.png"/>
+<div align=center><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/002.png"/>
 

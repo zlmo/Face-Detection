@@ -90,13 +90,13 @@ I have write the file to transfer, just run it:
 - Run in matlab and we will get the precison-recall curves on 'easy', 'medium' and 'hard' respectively.
 
 ## 5. And this is the qulitative result.
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/03.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/01.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/02.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/03.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/001.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/002.png"/>
-<img width="300" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/003.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/00.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/01.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/02.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/000.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/001.png"/>
+<img width="500" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/002.png"/>
 

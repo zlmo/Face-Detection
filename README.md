@@ -109,7 +109,6 @@ I write the paint.py to draw bounding box, red is the original annotations and g
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/02.png">
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/000.png">
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/001.png">
-</div>
-<div align=center>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/002.png">
+</div>
 

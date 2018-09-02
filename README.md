@@ -12,6 +12,7 @@ This project aims to realise face detection based on darknet and Wider Face data
 ## 1. Clone the project.
 First, clone this project using git:
 		`git clone https://github.com/zlmo/Face-Detection.git`
+modify Makefile accordding to your device and make.
 
 ## 2. Prepare Wider Face dataset.
 Then, we need to prepare the training set first. This includes downloading the dataset and transferring it to darknet style.
@@ -75,13 +76,14 @@ When use the official yolo-like networks for face detection, we need to do some 
   face_v2
   	链接: https://pan.baidu.com/s/1plHaBI-urGAqPXjZ98zVKw 密码: 2cgz
      
-## 3.My face detection method:A fast and lightweight method with feature fusion and multi-context for face detection 
-  The cfg file of this network is resface_slim.cfg. This network is a fast lightweight face detection network with feature fusion and context,the mainly architecture includes:(1)taking resnet18 as backbone;(2)feature fusion adopted from FPN;(3)multi-context.This network adds both local context and global context, and the local context is added by a depthwise separable convolution way to reduce computation.The architecture and the cnotext module is shown below:
+## 3.My face detection method resface_slim:A fast and lightweight method with feature fusion and multi-context for face detection 
+  The cfg file of this network is resface_slim.cfg. This network is a fast lightweight face detection network with feature fusion and context,its mainly architecture includes:(1)taking resnet18 as backbone;(2)feature fusion adopted from FPN;(3)multi-context,adding both local context and global context to the feature maps, and the local context is added by a depthwise separable convolution way to reduce computation.The architecture and the cnotext module is shown below:
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/resface/Figure3.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/resface/Figure4.png"/>
 
     ./darknet detector train cfg/widerface.cfg cfg/resface_slim.cfg resnet18.conv.25
-
+There's a little difference from the figure, I modified the local context to make it faster. And the pre-trained weights of resface_slim can be found here:
+	链接: https://pan.baidu.com/s/1OUh8cJbRmEd1M3rvpph11Q 密码: f4r8
   
 ## 4. Evaluated on Wider Face validation set
 We use toolkit from official website of Wider Face to evaluate the results, you need to install matlab and the Wider Face toolkit first.
@@ -98,7 +100,7 @@ This will produce the results needed by Wider Face (the result format could refe
 - Do some changes and run in matlab and we will get the precison-recall curves on 'easy', 'medium' and 'hard' respectively.
 
 ## 5. And this is the qualitative result.
-I write the paint.py to draw bounding box, red is the original annotations and green is the predicted bounding box.
+I write the paint.py to draw bounding boxes, red is the original annotations and green is the predicted bounding box.
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>

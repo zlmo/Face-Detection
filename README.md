@@ -98,8 +98,7 @@ This will produce the results needed by Wider Face (the result format could refe
 - Do some changes and run in matlab and we will get the precison-recall curves on 'easy', 'medium' and 'hard' respectively.
 
 ## 5. And this is the qualitative result.
-I write the paint.py to draw bounding box, red is the original annotations and green is the predicted bounding box. 
-
+I write the paint.py to draw bounding box, red is the original annotations and green is the predicted bounding box.
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>

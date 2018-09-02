@@ -98,7 +98,7 @@ This will produce the results needed by Wider Face (the result format could refe
 ## 5. And this is the qualitative result.
 I write the paint.py to draw bounding box, red is the original annotations and green is the predicted bounding box. 
  
-<div align=justify><img width="400" height="300", src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"><div align=justify><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png">
+<div align=left><img width="400" height="300", src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"><div align=right><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"></div>
 <div align=left><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>
 <div align=right><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/00.png"/>
 <div align=left><img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/01.png"/>

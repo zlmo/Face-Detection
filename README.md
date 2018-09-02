@@ -98,17 +98,17 @@ This will produce the results needed by Wider Face (the result format could refe
 ## 5. And this is the qualitative result.
 I write the paint.py to draw bounding box, red is the original annotations and green is the predicted bounding box. 
  
-<div align=left>
+#<div align=left>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/00.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/01.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/blur/02.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/00.png"/>
-</div>
-<div align=right>
+#</div>
+#<div align=right>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/01.png">
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/expression/02.png">
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/000.png">
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/001.png">
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/small-faces/002.png">
-</div>
+#</div>
 

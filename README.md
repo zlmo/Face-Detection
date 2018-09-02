@@ -75,10 +75,12 @@ When use the official yolo-like networks for face detection, we need to do some 
   face_v2
   	链接: https://pan.baidu.com/s/1plHaBI-urGAqPXjZ98zVKw 密码: 2cgz
      
-## 3. Train with my own face detection method
-  I write a network based on darknet which is the face_small_context3.cfg. This network is a fast lightweight face detection network with feature fusion and context.
+## 3.My face detection method:A fast and lightweight method with feature fusion and multi-context for face detection 
+  The cfg file of this network is resface_slim.cfg. This network is a fast lightweight face detection network with feature fusion and context,the mainly architecture includes:(1)taking resnet18 as backbone;(2)feature fusion adopted from FPN;(3)multi-context.This network adds both local context and global context, and the local context is added by a depthwise separable convolution way to reduce computation.The architecture and the cnotext module is shown below:
+<img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/resface/Figure3.png"/>
+<img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/resface/Figure4.png"/>
 
-    ./darknet detector train cfg/widerface.cfg cfg/face_small_context3.cfg darknet.conv.13
+    ./darknet detector train cfg/widerface.cfg cfg/resface_slim.cfg resnet18.conv.25
 
   
 ## 4. Evaluated on Wider Face validation set

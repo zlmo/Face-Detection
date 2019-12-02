@@ -68,7 +68,7 @@ When use the official yolo-like networks for face detection, we need to do some 
 
   This is trained use yolov2-tiny-voc.cfg, and the pre-trained weights darknet.con.13 can be found here in BaiduYun:  
   	Link: https://pan.baidu.com/s/1QThdiQqAUFX6XYyFtTyF8Q Extraction code: j1fr  
-  And some trained networks can be found here (These networks may have some little changes compare to original networks):
+  And some trained networks can be found here (These networks may have some little changes compare to original networks):  
   face_small_3    
   	Link: https://pan.baidu.com/s/1WrYsByjLbjT1B6B-H_Y8sg Extraction code: sa4h  
   face_small_6  

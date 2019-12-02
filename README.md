@@ -67,14 +67,14 @@ When use the official yolo-like networks for face detection, we need to do some 
 `./darknet detector train cfg/widerface.data cfg/yolov2-tiny-voc.cfg darknet.conv.13`     
 
   This is trained use yolov2-tiny-voc.cfg, and the pre-trained weights darknet.con.13 can be found here in BaiduYun:
-    	链接: https://pan.baidu.com/s/1TAq925irdympMnwPNPP4kw 密码: vew1
+    	Link: https://pan.baidu.com/s/1QThdiQqAUFX6XYyFtTyF8Q Extraction code: j1fr 
   And some trained networks can be found here (These networks may have some little changes compare to original networks):
   face_small_3
-  	链接: https://pan.baidu.com/s/1ZvNh1GWSC0ayCbD8NVndIA 密码: uwyh
+  	Link: https://pan.baidu.com/s/1WrYsByjLbjT1B6B-H_Y8sg Extraction code: sa4h
   face_small_6
-  	链接: https://pan.baidu.com/s/1oYm4AlfzUmEcazh0aBXbLQ 密码: 7tp8
+  	Link: https://pan.baidu.com/s/18a907k6z2ZqRofosgfB3lg Extraction code: q8d9
   face_v2
-  	链接: https://pan.baidu.com/s/1plHaBI-urGAqPXjZ98zVKw 密码: 2cgz
+  	Link: https://pan.baidu.com/s/1vG1H_FoNNcRKqdlvpmV-Qw Extraction code: 5izm
      
 ## 3.My face detection method resface_slim:A fast and lightweight method with feature fusion and multi-context for face detection 
   The cfg file of this network is resface_slim.cfg. This network is a fast lightweight face detection network with feature fusion and context,its mainly architecture includes:(1)taking resnet18 as backbone;(2)feature fusion adopted from FPN;(3)multi-context,adding both local context and global context to the feature maps, and the local context is added by a depthwise separable convolution way to reduce computation.The architecture and the cnotext module is shown below:

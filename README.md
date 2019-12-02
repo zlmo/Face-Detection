@@ -70,7 +70,6 @@ When use the official yolo-like networks for face detection, we need to do some 
   	Link: https://pan.baidu.com/s/1QThdiQqAUFX6XYyFtTyF8Q Extraction code: j1fr
   
   And some trained networks can be found here (These networks may have some little changes compare to original networks):
-  
   face_small_3
   	Link: https://pan.baidu.com/s/1WrYsByjLbjT1B6B-H_Y8sg Extraction code: sa4h
 	

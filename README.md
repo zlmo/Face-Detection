@@ -74,7 +74,7 @@ When use the official yolo-like networks for face detection, we need to do some 
   face_small_6  
   	Link: https://pan.baidu.com/s/18a907k6z2ZqRofosgfB3lg Extraction code: q8d9   
 	
-## 3.My face detection method resface_slim:A fast and lightweight method with feature fusion and multi-context for face detection 
+## 3.A face detection method: A fast and lightweight method with feature fusion and multi-context for face detection 
   The cfg file of this network is resface_slim.cfg. This network is a fast lightweight face detection network with feature fusion and context,its mainly architecture includes:(1)taking resnet18 as backbone;(2)feature fusion adopted from FPN;(3)multi-context,adding both local context and global context to the feature maps, and the local context is added by a depthwise separable convolution way to reduce computation.The architecture and the cnotext module is shown below:
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/resface/Figure3.png"/>
 <img width="400" height="300" src="https://raw.github.com/zlmo/face_detection/master/detections/resface/Figure4.png"/>
